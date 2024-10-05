@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header><h1>Welcome to Rock, Paper and Scissors Game</h1></header>
+   <div class="main">
+    <div class="game-area">
+        <div class="player-area">
+            <h2>Player</h2>
+            <div class="choice-display">
+                <img src="./assets/images/questionmark.jpg" alt="">
+            </div>
+            <div class="choice">
+               <h2> Choose from below:</h2>
+                <img class="paper" src="./assets/images/paper.jpg" alt="">
+                <img class="rock" src="./assets/images/rock.jpg" alt="">
+                <img class="scissor" src="./assets/images/scissor.jpg" alt="">
+            </div>
+        </div>
+        <div class="computer-area">
+            <h2>Computer</h2>
+            <div class="choice-display">
+                <img src="./assets/images/questionmark.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="score-area">
+        <h2>Score:</h2>
+        <p>Player: <span class="player-score">0</span></p>
+        <p>Computer: <span class="computer-score">0</span></p>
+        <p class="draw" style="display: none;">its a draw!!</p>
+    </div>
+   
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
